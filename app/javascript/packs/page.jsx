@@ -4,11 +4,10 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import PropTypes from 'prop-types'
-import SPA  from '../components/Spa.js'
+import Spa from '../components/Spa.js'
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <SPA />,
+    <Spa />,
     document.body.appendChild(document.createElement('div')),
   )
 })

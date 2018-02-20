@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from './Header'
-import Banner from './Banner.js.erb'
-// import Header from './Header'
-export default class SPA extends React.Component {
+import Banner from './Banner'
+import AboutMe from './AboutMe'
+
+export default class Spa extends React.Component {
   render(){
     return <div>
             <Header />
             <Banner/>
+            <AboutMe/>
           </div>
   }
 }
