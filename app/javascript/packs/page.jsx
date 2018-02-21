@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom'
 import Spa from '../components/Spa.js'
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <Spa />,
+    <HomePage />,
     document.body.appendChild(document.createElement('div')),
   )
 })
