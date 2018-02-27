@@ -4,7 +4,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Spa from '../components/Spa.js'
+import HomePage from '../components/HomePage.js'
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     <HomePage />,
